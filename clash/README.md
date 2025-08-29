@@ -9,7 +9,7 @@
 
 <img src="qr/jsdelivr.png" width="120px" height="120px"/>
 
-#### 地址二：
+#### 地址二(推荐)：
 
 > https://proxy.v2gh.com/https://raw.githubusercontent.com/YangLang116/auto_gen/refs/heads/master/clash/gen_clash_config.yaml
 
