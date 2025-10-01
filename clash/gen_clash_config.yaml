@@ -58,13 +58,19 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-CHs70
+- name: SS-xClJB
+  type: ss
+  server: 195.35.113.79
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1112935345BtgV5PDHVww
+- name: SS-xG6l6
   type: ss
   server: 104.192.226.106
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: SSR-0n5we
+- name: SSR-lxjkO
   type: ssr
   server: ssr.762988.xyz
   port: 33336
@@ -72,7 +78,20 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-ZwM8z
+- name: VMESS-C2glk
+  type: vmess
+  server: hkt.gotochinatown.net
+  port: 80
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: VMESS-j1cKF
   type: vmess
   server: 2001:bc8:32d7:30b::201
   port: 40011
@@ -85,137 +104,7 @@ proxies:
     path: /github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: VMESS-1dSga
-  type: vmess
-  server: cg1c04.waimaojd.com
-  port: 443
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /api/v1/graphql
-    headers:
-      Host: cg1c04.waimaojd.com
-- name: VMESS-RPDVa
-  type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-QGXy4
-  type: vmess
-  server: cg1c06.waimaojd.com
-  port: 443
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /api/v1/graphql
-    headers:
-      Host: cg1c06.waimaojd.com
-- name: VMESS-xMn52
-  type: vmess
-  server: hkt.gotochinatown.net
-  port: 80
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: VMESS-jUgzX
-  type: vmess
-  server: 0.0.0.0
-  port: 1
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-PQEZO
-  type: vmess
-  server: 0.0.0.0
-  port: 2
-  uuid: 88888888-8888-8888-8888-888888888888
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-rRCe7
-  type: vmess
-  server: cg1c13.waimaojd.com
-  port: 443
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /api/v1/graphql
-    headers:
-      Host: cg1c13.waimaojd.com
-- name: VMESS-7Wxzj
-  type: vmess
-  server: v8.heduian.link
-  port: 30808
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: v8.heduian.link
-- name: VMESS-ec9FH
-  type: vmess
-  server: 94.131.111.195
-  port: 444
-  uuid: 8bbd9d8c-481b-49b6-8029-e4648f2ea31d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: VMESS-6h9hF
-  type: vmess
-  server: cg1c03.waimaojd.com
-  port: 443
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /api/v1/graphql
-    headers:
-      Host: cg1c03.waimaojd.com
-- name: VMESS-tiarK
+- name: VMESS-ezpiZ
   type: vmess
   server: 0.0.0.0
   port: 3
@@ -228,20 +117,20 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-MCsMG
+- name: VMESS-U4nGy
   type: vmess
-  server: cg1c02.waimaojd.com
-  port: 443
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  alterId: 0
-  cipher: none
-  tls: true
+  server: v8.heduian.link
+  port: 30808
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
   network: ws
   ws-opts:
-    path: /api/v1/graphql
+    path: /oooo
     headers:
-      Host: cg1c02.waimaojd.com
-- name: VMESS-9SeMD
+      Host: v8.heduian.link
+- name: VMESS-Rpf5P
   type: vmess
   server: v8.heduian.link
   port: 30808
@@ -254,26 +143,130 @@ proxies:
     path: /oooo
     headers:
       Host: v8.heduian.link
+- name: VMESS-AZuZw
+  type: vmess
+  server: 0.0.0.0
+  port: 1
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-7wFbC
+  type: vmess
+  server: 47.254.240.75
+  port: 21572
+  uuid: c2ca7006-042e-442f-984c-1148f797c1e3
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /arki?ed=2048
+    headers:
+      Host: ''
+- name: VMESS-aP9C0
+  type: vmess
+  server: v10.heduian.link
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-7NrZK
+  type: vmess
+  server: 0.0.0.0
+  port: 2
+  uuid: 88888888-8888-8888-8888-888888888888
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-1dYCn
+  type: vmess
+  server: 94.131.111.195
+  port: 444
+  uuid: 8bbd9d8c-481b-49b6-8029-e4648f2ea31d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: VMESS-ipbkU
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-BybrE
+  type: vmess
+  server: cgroup.node1.v.nodelist-airport.com
+  port: 53231
+  uuid: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+  alterId: 0
+  cipher: none
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: ''
+    headers:
+      Host: cgroup.node1.v.nodelist-airport.com
+- name: VMESS-IVd4b
+  type: vmess
+  server: 47.74.10.111
+  port: 46049
+  uuid: 728257b1-5158-47d9-a1a1-6ac29faab878
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /arki?ed=2048
+    headers:
+      Host: ''
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-CHs70
-  - SSR-0n5we
-  - VMESS-ZwM8z
-  - VMESS-1dSga
-  - VMESS-RPDVa
-  - VMESS-QGXy4
-  - VMESS-xMn52
-  - VMESS-jUgzX
-  - VMESS-PQEZO
-  - VMESS-rRCe7
-  - VMESS-7Wxzj
-  - VMESS-ec9FH
-  - VMESS-6h9hF
-  - VMESS-tiarK
-  - VMESS-MCsMG
-  - VMESS-9SeMD
+  - SS-xClJB
+  - SS-xG6l6
+  - SSR-lxjkO
+  - VMESS-C2glk
+  - VMESS-j1cKF
+  - VMESS-ezpiZ
+  - VMESS-U4nGy
+  - VMESS-Rpf5P
+  - VMESS-AZuZw
+  - VMESS-7wFbC
+  - VMESS-aP9C0
+  - VMESS-7NrZK
+  - VMESS-1dYCn
+  - VMESS-ipbkU
+  - VMESS-BybrE
+  - VMESS-IVd4b
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
