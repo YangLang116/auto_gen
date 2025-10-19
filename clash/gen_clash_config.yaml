@@ -58,43 +58,49 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-v14ph
+- name: SS-np2CE
+  type: ss
+  server: 204.136.10.115
+  port: 1866
+  cipher: chacha20-ietf-poly1305
+  password: oXGp1+ihlfKg826H
+- name: SS-A5xx3
+  type: ss
+  server: 5.44.249.42
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- name: SS-FdoDX
   type: ss
   server: 16.176.178.192
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: SS-WUsOE
+- name: SS-4hfc9
+  type: ss
+  server: 5.44.249.42
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- name: SS-3oOAp
+  type: ss
+  server: 5.44.249.42
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+- name: SS-4ZWcr
   type: ss
   server: 103.103.245.158
   port: 443
   cipher: aes-256-gcm
   password: ccf426f1fe78
-- name: SS-TDdsL
-  type: ss
-  server: 5.44.249.42
-  port: 2377
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-- name: SS-fa9wR
+- name: SS-O4SJc
   type: ss
   server: pl.vpnsparta.pro
   port: 57456
   cipher: chacha20-ietf-poly1305
   password: 360e21d21977dc11
-- name: SS-DEKzQ
-  type: ss
-  server: 5.44.249.42
-  port: 2377
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-- name: SS-UNO86
-  type: ss
-  server: 5.44.249.42
-  port: 2377
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-- name: SSR-sjoO6
+- name: SSR-coAIR
   type: ssr
   server: ssr.762988.xyz
   port: 33336
@@ -102,46 +108,7 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-IODII
-  type: vmess
-  server: 9def5c5d-t398g0-tdnzz0-1qtp7.hk3.p5pv.com
-  port: 80
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-SZFCN
-  type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-XAtQz
-  type: vmess
-  server: 54d2d7fc-t3kcg0-tdnzz0-1qtp7.hk3.p5pv.com
-  port: 80
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-RR0eY
+- name: VMESS-VFm7S
   type: vmess
   server: 2001:bc8:32d7:30b::201
   port: 33200
@@ -154,9 +121,22 @@ proxies:
     path: /github.com/Alvin9999
     headers:
       Host: www.bing.com
-- name: VMESS-8SQyZ
+- name: VMESS-60oxC
   type: vmess
-  server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+  server: 46.3.26.12
+  port: 443
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /aa
+    headers:
+      Host: hk.nbee.pp.ua
+- name: VMESS-jmXI9
+  type: vmess
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
   port: 80
   uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   alterId: 2
@@ -166,63 +146,75 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
-- name: VMESS-drhqk
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-ub7Vz
   type: vmess
-  server: 09f05870-t35j40-tdnzz0-1qtp7.hk3.p5pv.com
-  port: 80
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
-  cipher: none
+  cipher: auto
   tls: false
   network: ws
   ws-opts:
-    path: /
+    path: /oooo
     headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: Trojan-1J44V
-  type: trojan
-  server: 153.121.41.97
-  port: 2467
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-YoNfa
-  type: trojan
-  server: 160.16.131.243
-  port: 1331
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-T0MzO
+      Host: baidu.com
+- name: Trojan-TiuMP
   type: trojan
   server: 36.151.195.112
   port: 4556
   password: BxceQaOe
   params: 'allowInsecure: 1'
-- name: Trojan-ObQ2R
+- name: Trojan-bdhK0
+  type: trojan
+  server: 203.198.122.28
+  port: 443
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  params: 'sni: fe2.update.microsoft.com'
+- name: Trojan-dwHtq
+  type: trojan
+  server: 160.16.132.158
+  port: 2283
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  params: 'sni: www.baidu.com'
+- name: Trojan-Rl6rM
+  type: trojan
+  server: 160.16.131.243
+  port: 1331
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-Oet7P
+  type: trojan
+  server: 153.121.41.97
+  port: 2467
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-pAqYX
   type: trojan
   server: 153.121.41.97
   port: 5041
   password: c53647f3153f784b3c695ffbe5fb43c0
   params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-YIQ6D
+- name: Trojan-o8kfT
   type: trojan
   server: 153.121.41.97
   port: 2381
   password: c53647f3153f784b3c695ffbe5fb43c0
   params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-9bIeY
+- name: Trojan-S06hZ
   type: trojan
   server: 160.16.131.243
   port: 316
   password: c53647f3153f784b3c695ffbe5fb43c0
   params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-gpXl1
+- name: Trojan-jbEyF
   type: trojan
   server: 160.16.131.243
   port: 5321
   password: c53647f3153f784b3c695ffbe5fb43c0
   params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-5PqLe
+- name: Trojan-mnCMX
   type: trojan
   server: 58.152.30.92
   port: 443
@@ -232,27 +224,28 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-v14ph
-  - SS-WUsOE
-  - SS-TDdsL
-  - SS-fa9wR
-  - SS-DEKzQ
-  - SS-UNO86
-  - SSR-sjoO6
-  - VMESS-IODII
-  - VMESS-SZFCN
-  - VMESS-XAtQz
-  - VMESS-RR0eY
-  - VMESS-8SQyZ
-  - VMESS-drhqk
-  - Trojan-1J44V
-  - Trojan-YoNfa
-  - Trojan-T0MzO
-  - Trojan-ObQ2R
-  - Trojan-YIQ6D
-  - Trojan-9bIeY
-  - Trojan-gpXl1
-  - Trojan-5PqLe
+  - SS-np2CE
+  - SS-A5xx3
+  - SS-FdoDX
+  - SS-4hfc9
+  - SS-3oOAp
+  - SS-4ZWcr
+  - SS-O4SJc
+  - SSR-coAIR
+  - VMESS-VFm7S
+  - VMESS-60oxC
+  - VMESS-jmXI9
+  - VMESS-ub7Vz
+  - Trojan-TiuMP
+  - Trojan-bdhK0
+  - Trojan-dwHtq
+  - Trojan-Rl6rM
+  - Trojan-Oet7P
+  - Trojan-pAqYX
+  - Trojan-o8kfT
+  - Trojan-S06hZ
+  - Trojan-jbEyF
+  - Trojan-mnCMX
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
