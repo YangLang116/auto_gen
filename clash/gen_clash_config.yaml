@@ -58,25 +58,25 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-jT2O6
-  type: ss
-  server: 3.9.17.198
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: SS-fyeQO
+- name: SS-7kSro
   type: ss
   server: 103.103.245.158
   port: 443
   cipher: aes-256-gcm
   password: ccf426f1fe78
-- name: SS-H4xdn
+- name: SS-Lleqx
   type: ss
   server: 185.153.197.5
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
-- name: SSR-ZY9aR
+- name: SS-kn8iS
+  type: ss
+  server: 3.9.17.198
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: SSR-PXtsm
   type: ssr
   server: ssr.762988.xyz
   port: 33336
@@ -84,11 +84,24 @@ proxies:
   protocol: auth_chain_a
   cipher: chacha20-ietf
   password: dongtaiwang.com
-- name: VMESS-anYVD
+- name: VMESS-pZ82B
   type: vmess
-  server: 93933a41-sv0xs0-t1jamc-1fvdh.hk3.p5pv.com
+  server: 73d73acd-sv2sg0-t7bo2t-1psmw.hk3.p5pv.com
   port: 80
-  uuid: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b
+  uuid: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: VMESS-zEXJF
+  type: vmess
+  server: 0af112c9-sv2sg0-swbdgq-1iddy.hk3.p5pv.com
+  port: 80
+  uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
   alterId: 2
   cipher: none
   tls: false
@@ -97,11 +110,11 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-lysmb
+- name: VMESS-E142T
   type: vmess
-  server: be4fe2f9-t3gn40-tdnzz0-1qtp7.hk3.p5pv.com
+  server: 6bbeaaf6-sv4n40-t8tsp0-1szmi.hk3.p5pv.com
   port: 80
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  uuid: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
   alterId: 2
   cipher: none
   tls: false
@@ -110,11 +123,11 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-ExoZu
+- name: VMESS-oNdoC
   type: vmess
-  server: 0f64e685-sv0xs0-svwnuh-1t4wg.hk3.p5pv.com
+  server: a7cf5f1e-sva740-tc67m2-1tjc4.hk3.p5pv.com
   port: 80
-  uuid: 1b13e20c-e778-11ef-907f-f23c913c8d2b
+  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
   alterId: 2
   cipher: none
   tls: false
@@ -123,35 +136,9 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-JHMN9
+- name: VMESS-0LF0L
   type: vmess
-  server: 3be014a6-sv0xs0-svpmdc-nx3b.hk3.p5pv.com
-  port: 80
-  uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-z6IrX
-  type: vmess
-  server: 272ffc58-sv2sg0-t4v3jz-1k8ga.hk3.p5pv.com
-  port: 80
-  uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-RkQuv
-  type: vmess
-  server: a818614b-sv0xs0-t2p691-1s4hc.hk3.p5pv.com
+  server: 7bdf5f2f-sv2sg0-t2p691-1s4hc.hk3.p5pv.com
   port: 80
   uuid: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
   alterId: 2
@@ -162,11 +149,24 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-sVpk5
+- name: VMESS-liI4x
   type: vmess
-  server: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com
+  server: 34013157-sunz40-taz53d-1j0y6.hk3.p5pv.com
   port: 80
-  uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d
+  uuid: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: VMESS-3XEc4
+  type: vmess
+  server: 457a1492-sv4n40-t6kzbp-1h5u7.hk3.p5pv.com
+  port: 80
+  uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b
   alterId: 2
   cipher: none
   tls: false
@@ -175,9 +175,9 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-AEOLn
+- name: VMESS-O9zqE
   type: vmess
-  server: 72e6fdd1-sv2sg0-t61ki5-1smhu.hk3.p5pv.com
+  server: bcad1ab1-sv0xs0-t61ki5-1smhu.hk3.p5pv.com
   port: 80
   uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
   alterId: 2
@@ -188,124 +188,7 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-2ZIrh
-  type: vmess
-  server: e85784e2-t13gg0-taklwz-12bd.hk.p5pv.com
-  port: 80
-  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-YyyZ9
-  type: vmess
-  server: 14269f63-t049s0-t1kmeg-mv7m.hk3.p5pv.com
-  port: 80
-  uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-wi3KL
-  type: vmess
-  server: 228c7ba5-sz8sg0-szi8d6-1ro8s.hk.p5pv.com
-  port: 80
-  uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-Rw0fe
-  type: vmess
-  server: 4cdbea97-t53wg0-to8xn3-l4nv.hk3.p5pv.com
-  port: 80
-  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-KTC0R
-  type: vmess
-  server: 0e7f1016-sva740-te0v28-1mh67.hk3.p5pv.com
-  port: 80
-  uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-bTzdW
-  type: vmess
-  server: 36.133.73.36
-  port: 11819
-  uuid: de32752c-0661-467e-82d3-35bc740a787f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-guXZo
-  type: vmess
-  server: f5a39ef1-sz8sg0-szi8d6-1ro8s.hk3.p5pv.com
-  port: 80
-  uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-FB1pz
-  type: vmess
-  server: bca6ef41-sv4n40-t5wcb1-13x18.hk3.p5pv.com
-  port: 80
-  uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-YOaMw
-  type: vmess
-  server: 814047e3-sv2sg0-t09t13-z7a1.hk3.p5pv.com
-  port: 80
-  uuid: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-VY6yY
+- name: VMESS-71CcK
   type: vmess
   server: 28044739-sv2sg0-t1jamc-1fvdh.hk3.p5pv.com
   port: 80
@@ -317,12 +200,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
-- name: VMESS-lauK6
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-kEfRx
   type: vmess
-  server: 377dc0dd-sva740-tbrhck-1thqb.hk.p5pv.com
+  server: 2fcc9928-sv4n40-tbcla6-194tt.hk3.p5pv.com
   port: 80
-  uuid: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
+  uuid: 602e99aa-718d-11eb-b77b-f23c913c8d2b
   alterId: 2
   cipher: none
   tls: false
@@ -331,11 +214,11 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-zXxQ6
+- name: VMESS-HPW9d
   type: vmess
-  server: 88788ee2-sv4n40-t61ki5-1smhu.hk3.p5pv.com
+  server: 8546e833-sv4n40-t4v3jz-1k8ga.hk3.p5pv.com
   port: 80
-  uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
+  uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
   alterId: 2
   cipher: none
   tls: false
@@ -344,59 +227,7 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-roXvj
-  type: vmess
-  server: b6335b34-sv8cg0-tbe46y-1la7v.hk.p5pv.com
-  port: 80
-  uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-0Wd7q
-  type: vmess
-  server: 2001:bc8:1203:209::50
-  port: 23008
-  uuid: e994b804-345c-4e8b-a827-7e005694d146
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /github.com/Alvin9999
-    headers:
-      Host: www.bing.com
-- name: VMESS-fgOkI
-  type: vmess
-  server: 38721ce7-t3rr40-tdnzz0-1qtp7.hk3.p5pv.com
-  port: 80
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-3gZes
-  type: vmess
-  server: b8ffcda3-sv2sg0-sv37gm-81nv.hk3.p5pv.com
-  port: 80
-  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-P9Bbr
+- name: VMESS-X5Mp0
   type: vmess
   server: 104.18.240.238
   port: 80
@@ -410,37 +241,11 @@ proxies:
       TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
     headers:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-- name: VMESS-JB5GP
+- name: VMESS-3hmMd
   type: vmess
-  server: v9.heduian.link
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-AJpgT
-  type: vmess
-  server: 954e8f8f-sv4n40-svs488-n09f.hk3.p5pv.com
+  server: 8ad47030-sv2sg0-t5wcb1-13x18.hk3.p5pv.com
   port: 80
-  uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-ohfdH
-  type: vmess
-  server: a7cf5f1e-sva740-tc67m2-1tjc4.hk3.p5pv.com
-  port: 80
-  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
+  uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
   alterId: 2
   cipher: none
   tls: false
@@ -449,11 +254,11 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-0NEPu
+- name: VMESS-saes6
   type: vmess
-  server: 3a0b963a-t02f40-tiuovf-v3c2.hk3.p5pv.com
+  server: eb1539c9-sv0xs0-ta5i1s-1j61y.hk3.p5pv.com
   port: 80
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  uuid: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   alterId: 2
   cipher: none
   tls: false
@@ -462,319 +267,7 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-zNZ0t
-  type: vmess
-  server: 36.133.73.36
-  port: 11819
-  uuid: de32752c-0661-467e-82d3-35bc740a787f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-CjFFX
-  type: vmess
-  server: c25c61db-sv2sg0-tbpu76-1thmd.hk3.p5pv.com
-  port: 80
-  uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-M6NP4
-  type: vmess
-  server: 6a4f8b94-t13gg0-t6fl0c-1r7od.hk.p5pv.com
-  port: 80
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-PdlCw
-  type: vmess
-  server: 2e9a1088-t0bog0-taksay-1tcuf.hk.p5pv.com
-  port: 80
-  uuid: 3952a514-eaa7-11ef-97da-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-U8Wx7
-  type: vmess
-  server: 8e42f8d1-sv0xs0-szxh9w-46gc.hk3.p5pv.com
-  port: 80
-  uuid: 225d1cca-d744-11ef-b790-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-aCZHq
-  type: vmess
-  server: 4a1ed0f2-sv0xs0-tbvl5i-1mebs.hk.p5pv.com
-  port: 80
-  uuid: 80f73b42-8264-11ef-8dc4-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-z7yyA
-  type: vmess
-  server: 5f0f42e9-sv4n40-t7udc0-1pqhp.hk3.p5pv.com
-  port: 80
-  uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-QwUFu
-  type: vmess
-  server: 707647ce-t15b40-t7mt0p-1sllg.hk.p5pv.com
-  port: 80
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-x7q4v
-  type: vmess
-  server: 77e1818c-t13gg0-t5fh9u-1uni.hk3.p5pv.com
-  port: 80
-  uuid: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-h9MDc
-  type: vmess
-  server: 36.133.73.36
-  port: 11819
-  uuid: de32752c-0661-467e-82d3-35bc740a787f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-3yq6M
-  type: vmess
-  server: 0971c36b-sv2sg0-t61ki5-1smhu.hk.p5pv.com
-  port: 80
-  uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-j1g9P
-  type: vmess
-  server: v10.heduian.link
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /oooo
-    headers:
-      Host: baidu.com
-- name: VMESS-ZUrUm
-  type: vmess
-  server: 5c4dc91c-sv2sg0-tbnucr-1thfv.hk3.p5pv.com
-  port: 80
-  uuid: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-NABIM
-  type: vmess
-  server: 49aa3fd4-sv2sg0-tbcla6-194tt.hk.p5pv.com
-  port: 80
-  uuid: 602e99aa-718d-11eb-b77b-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-S5eoT
-  type: vmess
-  server: 12988683-sv2sg0-t2whio-1jcwu.hk3.p5pv.com
-  port: 80
-  uuid: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-VgGLc
-  type: vmess
-  server: cb0c61e4-t0fds0-tfi5fd-1imi4.hk.p5pv.com
-  port: 80
-  uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-BBuqm
-  type: vmess
-  server: 84e9c650-szecg0-t0uhms-1rk0x.hk.p5pv.com
-  port: 80
-  uuid: 7960b6cc-1c95-11ef-ac7f-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-CSQ8x
-  type: vmess
-  server: 0469094f-sv6hs0-t5qfe2-1khwf.hk.p5pv.com
-  port: 80
-  uuid: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-yCWd5
-  type: vmess
-  server: f51a53a1-sv0xs0-swbdgq-1iddy.hk3.p5pv.com
-  port: 80
-  uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-4DBuT
-  type: vmess
-  server: fdda39f3-sv4n40-tasors-1tdqt.hk3.p5pv.com
-  port: 80
-  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-KxYxx
-  type: vmess
-  server: 1fee460c-sv6hs0-tbcla6-194tt.hk.p5pv.com
-  port: 80
-  uuid: 602e99aa-718d-11eb-b77b-f23c913c8d2b
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-LFRIG
-  type: vmess
-  server: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com
-  port: 80
-  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-TdrCd
-  type: vmess
-  server: 4cb1faba-sv0xs0-sypj6z-1rk9y.hk.p5pv.com
-  port: 80
-  uuid: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-I9Apm
-  type: vmess
-  server: a4e9c5f4-sv0xs0-sv37gm-81nv.hk.p5pv.com
-  port: 80
-  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  alterId: 2
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-- name: VMESS-jGU3m
+- name: VMESS-3VrdJ
   type: vmess
   server: v29.heduian.link
   port: 30829
@@ -787,11 +280,11 @@ proxies:
     path: /oooo
     headers:
       Host: ocbc.com
-- name: VMESS-RUT9e
+- name: VMESS-lYaQI
   type: vmess
-  server: 25b98d06-sv0xs0-suzz2n-vmdo.hk3.p5pv.com
+  server: 3b06c9c0-sv2sg0-sypj6z-1rk9y.hk3.p5pv.com
   port: 80
-  uuid: 24e32978-4858-11eb-8684-f23c913c8d2b
+  uuid: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
   alterId: 2
   cipher: none
   tls: false
@@ -800,11 +293,11 @@ proxies:
     path: /
     headers:
       Host: broadcastlv.chat.bilibili.com
-- name: VMESS-7rBwj
+- name: VMESS-h4OpB
   type: vmess
-  server: df08b250-sv2sg0-t5wcb1-13x18.hk.p5pv.com
+  server: bfce8c8d-sva740-tbe46y-1la7v.hk3.p5pv.com
   port: 80
-  uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  uuid: 460749c2-bcef-11ee-89fc-f23c913c8d2b
   alterId: 2
   cipher: none
   tls: false
@@ -812,190 +305,473 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: df08b250-sv2sg0-t5wcb1-13x18.hk.p5pv.com
-- name: Trojan-JwLzB
-  type: trojan
-  server: 117.172.176.24
-  port: 5041
-  password: bca467b8c15211d189008a93c7519d3b
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-O0O80
-  type: trojan
-  server: 160.16.236.32
-  port: 3161
-  password: bca467b8c15211d189008a93c7519d3b
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-SSzZw
-  type: trojan
-  server: 36.156.102.115
-  port: 26876
-  password: BxceQaOe
-  params: 'allowInsecure: 1'
-- name: Trojan-3ZxYu
-  type: trojan
-  server: 160.16.236.32
-  port: 4452
-  password: bca467b8c15211d189008a93c7519d3b
-  params: 'allowInsecure: 1, sni: www.baidu.com'
-- name: Trojan-WDJrk
-  type: trojan
-  server: n002.xunxunmimisbs.sbs
-  port: 23100
-  password: 7197668c-0332-466e-9553-41639c4bc95f
-  params: 'allowInsecure: 0, sni: uk01.xxxxyyyysbs.sbs'
-- name: Trojan-u7j6D
-  type: trojan
-  server: n001.xunxunmimisbs.sbs
-  port: 23100
-  password: f128c8a8-d184-4f9d-8aa2-503266130126
-  params: 'allowInsecure: 0, sni: uk01.xxxxyyyysbs.sbs'
-- name: Trojan-nktRQ
-  type: trojan
-  server: 36.156.102.74
-  port: 4861
-  password: BxceQaOe
-  params: 'allowInsecure: 1'
-- name: Trojan-sRxSj
-  type: trojan
-  server: 36.150.215.236
-  port: 487
-  password: BxceQaOe
-  params: 'allowInsecure: 1'
-- name: Trojan-Tknox
-  type: trojan
-  server: 117.172.176.24
-  port: 2381
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  params: 'allowInsecure: 1, sni: www.nintendogames.net'
-- name: Trojan-AbbmT
+      Host: ''
+- name: VMESS-hMiu9
+  type: vmess
+  server: f5a39ef1-sz8sg0-szi8d6-1ro8s.hk3.p5pv.com
+  port: 80
+  uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-nMGM8
+  type: vmess
+  server: 2001:bc8:1203:209::50
+  port: 23008
+  uuid: e994b804-345c-4e8b-a827-7e005694d146
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999
+    headers:
+      Host: www.bing.com
+- name: VMESS-bxAZN
+  type: vmess
+  server: 033a3be9-sva740-t0r7l4-1ruih.hk3.p5pv.com
+  port: 80
+  uuid: 3549abda-3854-11ef-b71e-f23c9164ca5d
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-gH1Jg
+  type: vmess
+  server: f8579e49-sv4n40-t9hghw-1sdoq.hk3.p5pv.com
+  port: 80
+  uuid: 7c077572-6da9-11ef-b786-f23c91cfbbc9
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-hj7K1
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-sn07S
+  type: vmess
+  server: 36.133.73.36
+  port: 11819
+  uuid: de32752c-0661-467e-82d3-35bc740a787f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-8774q
+  type: vmess
+  server: 36.133.73.36
+  port: 11819
+  uuid: de32752c-0661-467e-82d3-35bc740a787f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-l7oTZ
+  type: vmess
+  server: 6bdf8f31-sv2sg0-tdh9w7-ahsb.hk3.p5pv.com
+  port: 80
+  uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 6bdf8f31-sv2sg0-tdh9w7-ahsb.hk3.p5pv.com
+- name: VMESS-khjw1
+  type: vmess
+  server: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com
+  port: 80
+  uuid: 1282cc1a-f426-11ef-9495-f23c91cfbbc9
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: VMESS-w3z1H
+  type: vmess
+  server: 2aba7152-sv2sg0-tcr97d-2b2n.hk3.p5pv.com
+  port: 80
+  uuid: fcd39788-ca23-11ed-86e2-f23c913c8d2b
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-p9Ivd
+  type: vmess
+  server: 10cd2f16-sv2sg0-t7hu58-1q1la.hk3.p5pv.com
+  port: 80
+  uuid: 25b46954-9a33-11ee-8b86-f23c91cfbbc9
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-rboKs
+  type: vmess
+  server: c7f55f8c-sv2sg0-t15jkc-eyem.hk3.p5pv.com
+  port: 80
+  uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-bKuty
+  type: vmess
+  server: c9dc37fe-szi1s0-t0y0nd-1mmbp.hk3.p5pv.com
+  port: 80
+  uuid: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-B7o3I
+  type: vmess
+  server: 24671c5a-sv4n40-swjbgr-1kcpe.hk3.p5pv.com
+  port: 80
+  uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-ILaFM
+  type: vmess
+  server: 1b6c49f6-sv2sg0-tcmken-19les.hk3.p5pv.com
+  port: 80
+  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-yia24
+  type: vmess
+  server: 2e617951-sv2sg0-taj9mo-1tco3.hk3.p5pv.com
+  port: 80
+  uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 2e617951-sv2sg0-taj9mo-1tco3.hk3.p5pv.com
+- name: VMESS-iJGjI
+  type: vmess
+  server: v9.heduian.link
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+- name: VMESS-LbVIF
+  type: vmess
+  server: 36.133.73.36
+  port: 11819
+  uuid: de32752c-0661-467e-82d3-35bc740a787f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-FmZd4
+  type: vmess
+  server: 2e3ac5d1-sv2sg0-t7udc0-1pqhp.hk3.p5pv.com
+  port: 80
+  uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-SAB8R
+  type: vmess
+  server: 98e590b8-t0kxs0-t5xs0q-1462e.hk3.p5pv.com
+  port: 80
+  uuid: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-uhg0g
+  type: vmess
+  server: 5bf9e2f8-t15b40-t6eg6k-1pckg.hk3.p5pv.com
+  port: 80
+  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: VMESS-Syn1x
+  type: vmess
+  server: 7a2912ee-sv0xs0-sypj6z-1rk9y.hk3.p5pv.com
+  port: 80
+  uuid: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+- name: VMESS-ywhoa
+  type: vmess
+  server: 7dfe4b59-svc1s0-tc67m2-1tjc4.hk3.p5pv.com
+  port: 80
+  uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
+  alterId: 2
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 7dfe4b59-svc1s0-tc67m2-1tjc4.hk3.p5pv.com
+- name: Trojan-zPub3
   type: trojan
   server: 36.151.192.242
   port: 194
   password: BxceQaOe
   params: 'allowInsecure: 1'
-- name: Trojan-JJsj9
+- name: Trojan-4owdb
   type: trojan
-  server: 117.172.176.24
-  port: 5321
-  password: bca467b8c15211d189008a93c7519d3b
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-VFP0i
+  server: 58.152.46.98
+  port: 443
+  password: BxceQaOe
+  params: ''
+- name: Trojan-oUG7S
   type: trojan
   server: 36.156.102.74
   port: 43567
   password: BxceQaOe
   params: 'allowInsecure: 1'
-- name: Trojan-RzZyF
+- name: Trojan-8pacE
   type: trojan
   server: 117.172.176.24
   port: 2467
   password: ea39fa94f1ee00999337ea1fd3318e69
   params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-pBJp0
-  type: trojan
-  server: 221.128.195.9
-  port: 22581
-  password: bca467b8c15211d189008a93c7519d3b
-  params: 'allowInsecure: 0, sni: www.nintendogames.net'
-- name: Trojan-DWpXZ
+- name: Trojan-bu0FX
   type: trojan
   server: 36.150.215.197
   port: 9713
   password: BxceQaOe
   params: 'allowInsecure: 1'
-- name: Trojan-gd9ox
+- name: Trojan-3pAti
+  type: trojan
+  server: 117.172.176.24
+  port: 5041
+  password: bca467b8c15211d189008a93c7519d3b
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-MMutr
+  type: trojan
+  server: 117.172.176.24
+  port: 5321
+  password: bca467b8c15211d189008a93c7519d3b
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-Ab2Px
+  type: trojan
+  server: 36.156.102.74
+  port: 4861
+  password: BxceQaOe
+  params: 'allowInsecure: 1'
+- name: Trojan-uoyEY
+  type: trojan
+  server: 160.16.236.32
+  port: 3161
+  password: bca467b8c15211d189008a93c7519d3b
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-c8X8e
+  type: trojan
+  server: 36.156.102.115
+  port: 26876
+  password: BxceQaOe
+  params: 'allowInsecure: 1'
+- name: Trojan-Pfmfq
+  type: trojan
+  server: n001.xunxunmimisbs.sbs
+  port: 23100
+  password: f128c8a8-d184-4f9d-8aa2-503266130126
+  params: 'allowInsecure: 0, sni: uk01.xxxxyyyysbs.sbs'
+- name: Trojan-WcCuK
+  type: trojan
+  server: 117.172.176.24
+  port: 2381
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  params: 'allowInsecure: 1, sni: www.nintendogames.net'
+- name: Trojan-lGoGp
+  type: trojan
+  server: n002.xunxunmimisbs.sbs
+  port: 23100
+  password: 7197668c-0332-466e-9553-41639c4bc95f
+  params: 'allowInsecure: 0, sni: uk01.xxxxyyyysbs.sbs'
+- name: Trojan-lRxzW
   type: trojan
   server: n002.xunxunmimisbs.sbs
   port: 28100
   password: 2c1f575d-08ad-4ad8-b2b2-f147379dd36d
   params: 'allowInsecure: 0, sni: db01.xxxxyyyysbs.sbs'
-- name: Trojan-4YSTy
+- name: Trojan-X9SgJ
   type: trojan
-  server: 36.151.192.242
-  port: 194
+  server: 221.128.195.9
+  port: 22581
+  password: bca467b8c15211d189008a93c7519d3b
+  params: 'allowInsecure: 0, sni: www.nintendogames.net'
+- name: Trojan-RnFJg
+  type: trojan
+  server: 160.16.236.32
+  port: 4452
+  password: bca467b8c15211d189008a93c7519d3b
+  params: 'allowInsecure: 1, sni: www.baidu.com'
+- name: Trojan-rVPs8
+  type: trojan
+  server: 36.150.215.236
+  port: 487
   password: BxceQaOe
   params: 'allowInsecure: 1'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-jT2O6
-  - SS-fyeQO
-  - SS-H4xdn
-  - SSR-ZY9aR
-  - VMESS-anYVD
-  - VMESS-lysmb
-  - VMESS-ExoZu
-  - VMESS-JHMN9
-  - VMESS-z6IrX
-  - VMESS-RkQuv
-  - VMESS-sVpk5
-  - VMESS-AEOLn
-  - VMESS-2ZIrh
-  - VMESS-YyyZ9
-  - VMESS-wi3KL
-  - VMESS-Rw0fe
-  - VMESS-KTC0R
-  - VMESS-bTzdW
-  - VMESS-guXZo
-  - VMESS-FB1pz
-  - VMESS-YOaMw
-  - VMESS-VY6yY
-  - VMESS-lauK6
-  - VMESS-zXxQ6
-  - VMESS-roXvj
-  - VMESS-0Wd7q
-  - VMESS-fgOkI
-  - VMESS-3gZes
-  - VMESS-P9Bbr
-  - VMESS-JB5GP
-  - VMESS-AJpgT
-  - VMESS-ohfdH
-  - VMESS-0NEPu
-  - VMESS-zNZ0t
-  - VMESS-CjFFX
-  - VMESS-M6NP4
-  - VMESS-PdlCw
-  - VMESS-U8Wx7
-  - VMESS-aCZHq
-  - VMESS-z7yyA
-  - VMESS-QwUFu
-  - VMESS-x7q4v
-  - VMESS-h9MDc
-  - VMESS-3yq6M
-  - VMESS-j1g9P
-  - VMESS-ZUrUm
-  - VMESS-NABIM
-  - VMESS-S5eoT
-  - VMESS-VgGLc
-  - VMESS-BBuqm
-  - VMESS-CSQ8x
-  - VMESS-yCWd5
-  - VMESS-4DBuT
-  - VMESS-KxYxx
-  - VMESS-LFRIG
-  - VMESS-TdrCd
-  - VMESS-I9Apm
-  - VMESS-jGU3m
-  - VMESS-RUT9e
-  - VMESS-7rBwj
-  - Trojan-JwLzB
-  - Trojan-O0O80
-  - Trojan-SSzZw
-  - Trojan-3ZxYu
-  - Trojan-WDJrk
-  - Trojan-u7j6D
-  - Trojan-nktRQ
-  - Trojan-sRxSj
-  - Trojan-Tknox
-  - Trojan-AbbmT
-  - Trojan-JJsj9
-  - Trojan-VFP0i
-  - Trojan-RzZyF
-  - Trojan-pBJp0
-  - Trojan-DWpXZ
-  - Trojan-gd9ox
-  - Trojan-4YSTy
+  - SS-7kSro
+  - SS-Lleqx
+  - SS-kn8iS
+  - SSR-PXtsm
+  - VMESS-pZ82B
+  - VMESS-zEXJF
+  - VMESS-E142T
+  - VMESS-oNdoC
+  - VMESS-0LF0L
+  - VMESS-liI4x
+  - VMESS-3XEc4
+  - VMESS-O9zqE
+  - VMESS-71CcK
+  - VMESS-kEfRx
+  - VMESS-HPW9d
+  - VMESS-X5Mp0
+  - VMESS-3hmMd
+  - VMESS-saes6
+  - VMESS-3VrdJ
+  - VMESS-lYaQI
+  - VMESS-h4OpB
+  - VMESS-hMiu9
+  - VMESS-nMGM8
+  - VMESS-bxAZN
+  - VMESS-gH1Jg
+  - VMESS-hj7K1
+  - VMESS-sn07S
+  - VMESS-8774q
+  - VMESS-l7oTZ
+  - VMESS-khjw1
+  - VMESS-w3z1H
+  - VMESS-p9Ivd
+  - VMESS-rboKs
+  - VMESS-bKuty
+  - VMESS-B7o3I
+  - VMESS-ILaFM
+  - VMESS-yia24
+  - VMESS-iJGjI
+  - VMESS-LbVIF
+  - VMESS-FmZd4
+  - VMESS-SAB8R
+  - VMESS-uhg0g
+  - VMESS-Syn1x
+  - VMESS-ywhoa
+  - Trojan-zPub3
+  - Trojan-4owdb
+  - Trojan-oUG7S
+  - Trojan-8pacE
+  - Trojan-bu0FX
+  - Trojan-3pAti
+  - Trojan-MMutr
+  - Trojan-Ab2Px
+  - Trojan-uoyEY
+  - Trojan-c8X8e
+  - Trojan-Pfmfq
+  - Trojan-WcCuK
+  - Trojan-lGoGp
+  - Trojan-lRxzW
+  - Trojan-X9SgJ
+  - Trojan-RnFJg
+  - Trojan-rVPs8
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
