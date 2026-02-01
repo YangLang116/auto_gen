@@ -58,163 +58,79 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-KuFm9
-  type: ss
-  server: 57.129.95.78
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: e0e4014bb22f7329
-- name: SS-KYsFV
-  type: ss
-  server: 141.95.107.129
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: ebf915eda54bdfac
-- name: SS-qworm
-  type: ss
-  server: 82.38.31.89
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: SS-ap7ZN
-  type: ss
-  server: 15.204.247.49
-  port: 12000
-  cipher: aes-256-gcm
-  password: 8JCsPssfgS8tiRwiMlhARg==
-- name: SS-XZaCa
-  type: ss
-  server: 54.36.174.134
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: pvgz9pq
-- name: SS-N8Uc5
-  type: ss
-  server: 141.95.105.6
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: e83357ea31b098bd
-- name: SS-hOGKZ
-  type: ss
-  server: 119.159.245.24
-  port: 26736
-  cipher: chacha20-ietf-poly1305
-  password: 1d1bc54689ed4b75
-- name: SS-H1rXV
-  type: ss
-  server: 54.36.174.140
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: pvgz9pq
-- name: SS-6tBOs
-  type: ss
-  server: 82.38.31.101
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: SS-t6fus
+- name: SS-5Xff8
   type: ss
   server: 38.54.93.107
   port: 11201
   cipher: chacha20-ietf-poly1305
   password: 5654d957c5f61640
-- name: SS-RG3YI
+- name: SS-rspKM
   type: ss
-  server: 141.95.105.28
-  port: 11201
+  server: 54.36.174.134
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: 37ef4f029f1ac0ac
-- name: SS-HQfNq
+  password: pvgz9pq
+- name: SS-KAx0S
+  type: ss
+  server: 54.36.174.140
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: pvgz9pq
+- name: SS-mRByl
   type: ss
   server: 57.128.214.100
   port: 12000
   cipher: aes-256-gcm
   password: 8JCsPssfgS8tiRwiMlhARg==
-- name: SS-Ls21n
+- name: SS-mtqDB
   type: ss
-  server: 38.242.222.183
+  server: 82.38.31.101
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: SS-VXCtx
+  type: ss
+  server: 15.204.247.49
+  port: 12000
+  cipher: aes-256-gcm
+  password: 8JCsPssfgS8tiRwiMlhARg==
+- name: SS-TAaXb
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+- name: SS-441RX
+  type: ss
+  server: 82.38.31.82
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: SS-bUuCt
+  type: ss
+  server: 119.159.245.24
+  port: 26736
+  cipher: chacha20-ietf-poly1305
+  password: 1d1bc54689ed4b75
+- name: SS-CRbUz
+  type: ss
+  server: 141.95.105.28
   port: 11201
   cipher: chacha20-ietf-poly1305
-  password: 52671647af0cffa0
-- name: VMESS-lANPW
-  type: vmess
-  server: v30.hdacd.com
-  port: 30830
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: 51aa8f7.hf.glados-config.net
-- name: VMESS-ZhdQU
-  type: vmess
-  server: 104.21.69.44
+  password: 37ef4f029f1ac0ac
+- name: SS-vjBa9
+  type: ss
+  server: 38.54.93.205
+  port: 11201
+  cipher: chacha20-ietf-poly1305
+  password: 80bcc0874d39c391
+- name: SS-8pdbU
+  type: ss
+  server: 82.38.31.89
   port: 8080
-  uuid: nasnet
-  alterId: 0
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /nasnet/cdn
-    headers:
-      Host: nasnet-511952424.mcitel.co
-- name: VMESS-Y72r2
-  type: vmess
-  server: tgju.org
-  port: 8080
-  uuid: nasnet
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /nasnet/cdn?ed=2560
-    headers:
-      Host: nasnet-571296497.iranpress.co
-- name: VMESS-0H3er
-  type: vmess
-  server: 154.83.2.156
-  port: 2086
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-  alterId: 0
-  cipher: none
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v205.19740822.xyz
-- name: VMESS-VoEYz
-  type: vmess
-  server: 95.81.123.15
-  port: 40956
-  uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /speedtest
-    headers:
-      Host: imafake.locker
-- name: VMESS-MYy2Y
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-CIZNw
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: VMESS-qNqpl
   type: vmess
   server: 2a14:7584:d0a2::a
   port: 23456
@@ -227,72 +143,115 @@ proxies:
     path: /alvin9999.com
     headers:
       Host: www.bing.com
-- name: Trojan-It5sX
+- name: VMESS-zgz6p
+  type: vmess
+  server: digitalocean.com
+  port: 8080
+  uuid: nasnet
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /NASNET/cdn?ed=2560
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+- name: VMESS-UINhf
+  type: vmess
+  server: tgju.org
+  port: 8080
+  uuid: nasnet
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /nasnet/cdn?ed=2560
+    headers:
+      Host: nasnet-571296497.iranpress.co
+- name: Trojan-DD3rf
   type: trojan
-  server: 167.17.185.228
-  port: 10889
-  password: cTv.9PDdCt-wybBrG1qlxI5UJuaEj
-  params: 'security: tls, sni: web.max'
-- name: Trojan-jt45b
+  server: 160.16.117.182
+  port: 491
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  params: 'security: tls, sni: www.nintendogames.net'
+- name: Trojan-dIydo
+  type: trojan
+  server: 172.64.152.23
+  port: 443
+  password: humanity
+  params: 'path: /assignment, security: tls, insecure: 0, host: www.creationlong.org,
+    type: ws, allowInsecure: 0, sni: www.creationlong.org'
+- name: Trojan-Q0xzF
+  type: trojan
+  server: 212.193.18.144
+  port: 36158
+  password: ZblhWr0mqMakCPg.N
+  params: 'security: tls, sni: ya.ru'
+- name: Trojan-X42b7
+  type: trojan
+  server: 58.152.53.45
+  port: 443
+  password: BxceQaOe
+  params: 'allowInsecure: 1, sni: t.me%252Fripaojiedian'
+- name: Trojan-FLNDH
   type: trojan
   server: tuntro010.instconn.com
   port: 443
   password: 63b21d86-a49c-4936-a634-0b5af3e30433
   params: 'allowInsecure: 1, sni: frankfurtrm2.686911.xyz'
-- name: Trojan-Lk1kP
-  type: trojan
-  server: 13.37.74.8
-  port: 22222
-  password: telegram-id-privatevpns
-  params: 'security: tls, alpn: http/1.1, headerType: none, type: tcp, sni: trojan.burgerip.co.uk'
-- name: Trojan-UyHOH
+- name: Trojan-4fQ7R
   type: trojan
   server: 45.89.111.142
   port: 443
   password: 7LBbob9IutFObLxLf9Svc1HaV
   params: 'allowInsecure: 1, sni: hl-freedom-1.undef.network, ws: 1, wspath: /f2fc2a1f'
-- name: Trojan-laB37
+- name: Trojan-EEIlK
   type: trojan
-  server: 83.143.87.9
-  port: 18581
-  password: RPyW62_b9aH.ztJKeArou
-  params: 'sni: 83.143.87.9'
-- name: Trojan-MNFiF
+  server: 58.152.53.45
+  port: 443
+  password: BxceQaOe
+  params: 'sni: t.me%252Fripaojiedian'
+- name: Trojan-LhDA9
   type: trojan
   server: xiaozhu1.kkieo555.cn
   port: 41273
   password: 05effb18-d3e5-42a8-96cb-d4ca70c43c7a
   params: 'allowInsecure: 1'
+- name: Trojan-Hd0XW
+  type: trojan
+  server: green2.cdntencentmusic.com
+  port: 31102
+  password: 19fcde52-c498-4863-8fb1-5923c75dec39
+  params: 'allowInsecure: 1, sni: green2.cdntencentmusic.com'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-KuFm9
-  - SS-KYsFV
-  - SS-qworm
-  - SS-ap7ZN
-  - SS-XZaCa
-  - SS-N8Uc5
-  - SS-hOGKZ
-  - SS-H1rXV
-  - SS-6tBOs
-  - SS-t6fus
-  - SS-RG3YI
-  - SS-HQfNq
-  - SS-Ls21n
-  - VMESS-lANPW
-  - VMESS-ZhdQU
-  - VMESS-Y72r2
-  - VMESS-0H3er
-  - VMESS-VoEYz
-  - VMESS-MYy2Y
-  - VMESS-CIZNw
-  - Trojan-It5sX
-  - Trojan-jt45b
-  - Trojan-Lk1kP
-  - Trojan-UyHOH
-  - Trojan-laB37
-  - Trojan-MNFiF
+  - SS-5Xff8
+  - SS-rspKM
+  - SS-KAx0S
+  - SS-mRByl
+  - SS-mtqDB
+  - SS-VXCtx
+  - SS-TAaXb
+  - SS-441RX
+  - SS-bUuCt
+  - SS-CRbUz
+  - SS-vjBa9
+  - SS-8pdbU
+  - VMESS-qNqpl
+  - VMESS-zgz6p
+  - VMESS-UINhf
+  - Trojan-DD3rf
+  - Trojan-dIydo
+  - Trojan-Q0xzF
+  - Trojan-X42b7
+  - Trojan-FLNDH
+  - Trojan-4fQ7R
+  - Trojan-EEIlK
+  - Trojan-LhDA9
+  - Trojan-Hd0XW
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
