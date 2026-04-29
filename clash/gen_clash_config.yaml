@@ -58,55 +58,55 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-wnT7G
+- name: SS-RhSHH
   type: ss
   server: www.ccgfw.top
   port: 443
   cipher: aes-128-gcm
   password: 6601fb90e9b3
-- name: SS-fpQfW
+- name: SS-tSiGB
   type: ss
   server: www.ccgfw.top
   port: 443
   cipher: aes-128-gcm
   password: 6601fb90e9b3
-- name: SS-v7fXE
+- name: SS-9q4TN
   type: ss
   server: www.ccgfw.top
   port: 443
   cipher: aes-128-gcm
   password: 6601fb90e9b3
-- name: SS-iNVKS
+- name: SS-Brgdp
   type: ss
   server: 149.28.255.6
   port: 816
   cipher: chacha20-ietf-poly1305
   password: GyZ5Xo0ht41vYmW3H4
-- name: SS-VevYs
+- name: SS-YyWka
   type: ss
   server: www.ccgfw.top
   port: 443
   cipher: aes-128-gcm
   password: 6601fb90e9b3
-- name: SS-yo0yn
+- name: SS-wtjrh
   type: ss
   server: www.ccgfw.top
   port: 443
   cipher: aes-128-gcm
   password: 6601fb90e9b3
-- name: SS-DDFtr
+- name: SS-MHuwT
   type: ss
-  server: admin.c1.webramz.co
+  server: www.ccgfw.top
+  port: 443
+  cipher: aes-128-gcm
+  password: 6601fb90e9b3
+- name: SS-JH6D4
+  type: ss
+  server: 20.50.122.36
   port: 443
   cipher: chacha20-ietf-poly1305
   password: W74XFALLLuw6m5IA
-- name: SS-AxTDe
-  type: ss
-  server: www.ccgfw.top
-  port: 443
-  cipher: aes-128-gcm
-  password: 6601fb90e9b3
-- name: VMESS-YCe8J
+- name: VMESS-00L2O
   type: vmess
   server: 82.198.246.37
   port: 180
@@ -119,7 +119,20 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-UEheY
+- name: VMESS-cSCab
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-4hsEN
   type: vmess
   server: 2a02:6ea0:d32f::f8fe:349b
   port: 24202
@@ -132,46 +145,46 @@ proxies:
     path: /github.com/Alvin9999-newpac/fanqiang
     headers:
       Host: ''
-- name: VMESS-LaP6S
+- name: VMESS-p9l4U
   type: vmess
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
+  server: 103.181.164.145
+  port: 54022
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
   tls: false
   network: tcp
   tcp-opts:
     path: /
     headers:
-      Host: fra35.chasem2026sud.com
-- name: VMESS-NxKPe
-  type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-LQpsP
+      Host: 103.181.164.145
+- name: VMESS-yAC3u
   type: vmess
   server: 82.198.246.9
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
+  cipher: none
+  tls: true
+  network: N/A
+  N/A-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-WjdGP
+  type: vmess
+  server: 103.181.164.145
+  port: 54022
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
   tls: false
   network: tcp
   tcp-opts:
-    path: N/A
+    path: /
     headers:
-      Host: N/A
-- name: VMESS-17MSi
+      Host: fra33.chasem2026sud.com
+- name: VMESS-DBRMm
   type: vmess
   server: 82.198.246.250
   port: 180
@@ -181,51 +194,12 @@ proxies:
   tls: false
   network: tcp
   tcp-opts:
-    path: /
-    headers:
-      Host: fra35.chasem2026sud.com
-- name: VMESS-24myc
-  type: vmess
-  server: 82.198.246.9
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: ads.x5.ru
-- name: VMESS-yL3dx
-  type: vmess
-  server: 82.198.246.233
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: none
-  tls: false
-  network: tcp
-  tcp-opts:
-    path: /
-    headers:
-      Host: ''
-- name: VMESS-tg3Hs
-  type: vmess
-  server: 103.181.164.145
-  port: 51556
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: tcp
-  tcp-opts:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-sLoKQ
+- name: VMESS-8ERfo
   type: vmess
-  server: 82.198.246.214
+  server: 82.198.246.250
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
@@ -236,9 +210,35 @@ proxies:
     path: ''
     headers:
       Host: ''
-- name: VMESS-xLb6V
+- name: VMESS-2Q2an
   type: vmess
-  server: 82.198.246.9
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: none
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: /
+    headers:
+      Host: ''
+- name: VMESS-Jq11h
+  type: vmess
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-7DtvK
+  type: vmess
+  server: 82.198.246.214
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
@@ -248,30 +248,37 @@ proxies:
   tcp-opts:
     path: /
     headers:
-      Host: 82.198.246.9
+      Host: 82.198.246.214
+- name: Trojan-sDufM
+  type: trojan
+  server: 78.159.131.12
+  port: 28259
+  password: MeaDiUmPlkWbZJ2BON8tz
+  params: 'sni: ads.x5.ru'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-wnT7G
-  - SS-fpQfW
-  - SS-v7fXE
-  - SS-iNVKS
-  - SS-VevYs
-  - SS-yo0yn
-  - SS-DDFtr
-  - SS-AxTDe
-  - VMESS-YCe8J
-  - VMESS-UEheY
-  - VMESS-LaP6S
-  - VMESS-NxKPe
-  - VMESS-LQpsP
-  - VMESS-17MSi
-  - VMESS-24myc
-  - VMESS-yL3dx
-  - VMESS-tg3Hs
-  - VMESS-sLoKQ
-  - VMESS-xLb6V
+  - SS-RhSHH
+  - SS-tSiGB
+  - SS-9q4TN
+  - SS-Brgdp
+  - SS-YyWka
+  - SS-wtjrh
+  - SS-MHuwT
+  - SS-JH6D4
+  - VMESS-00L2O
+  - VMESS-cSCab
+  - VMESS-4hsEN
+  - VMESS-p9l4U
+  - VMESS-yAC3u
+  - VMESS-WjdGP
+  - VMESS-DBRMm
+  - VMESS-8ERfo
+  - VMESS-2Q2an
+  - VMESS-Jq11h
+  - VMESS-7DtvK
+  - Trojan-sDufM
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
