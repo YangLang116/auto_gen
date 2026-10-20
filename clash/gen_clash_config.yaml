@@ -58,32 +58,32 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-rvyCq
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-- name: SS-BdLVG
+- name: SS-XXczj
   type: ss
   server: 192.0.2.1
   port: 1
   cipher: aes-128-gcm
   password: 6601fb90e9b3
-- name: VMESS-8D7sn
+- name: SS-9nuOE
+  type: ss
+  server: 176.32.33.143
+  port: 18443
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+- name: VMESS-k80hv
   type: vmess
-  server: 8.217.254.88
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
+  server: v35.hdacd.com
+  port: 30835
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: none
   tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
+  network: tcp
+  tcp-opts:
+    path: N/A
     headers:
-      Host: 2b9hwy8ocx7q74nm.v.3dns.vip
-- name: VMESS-Raqb0
+      Host: N/A
+- name: VMESS-gWmA6
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -96,38 +96,12 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: VMESS-MjjPD
+- name: VMESS-6QqNU
   type: vmess
-  server: 47.243.153.153
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-- name: VMESS-EZlER
-  type: vmess
-  server: 47.76.57.83
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-- name: VMESS-BDUAV
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: none
   tls: true
   network: tcp
@@ -135,7 +109,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-9HJYx
+- name: VMESS-uZJSs
   type: vmess
   server: 2001:bc8:32d7:1a9::5
   port: 18901
@@ -148,33 +122,59 @@ proxies:
     path: /github.com/Alvin9999-newpac/fanqiang
     headers:
       Host: N/A
-- name: VMESS-POCmz
+- name: VMESS-Sf9sK
   type: vmess
-  server: 39.108.113.127
-  port: 10086
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  server: 206.238.239.109
+  port: 8443
+  uuid: 6006c9a2-c0a2-4cda-80f2-405b0d790fc8
   alterId: 0
   cipher: none
   tls: true
   network: ws
   ws-opts:
+    path: /London31
+    headers:
+      Host: uk.frnhk.xyz
+- name: VMESS-5paJN
+  type: vmess
+  server: v36.hdacd.com
+  port: 30836
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: true
+  network: tcp
+  tcp-opts:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-VdS2V
+- name: VMESS-fDsb8
   type: vmess
-  server: 120.48.133.162
-  port: 10086
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  server: 2.58.104.11
+  port: 8443
+  uuid: 6006c9a2-c0a2-4cda-80f2-405b0d790fc8
   alterId: 0
   cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: N/A
+    path: /KualaLumpur1
     headers:
-      Host: N/A
-- name: VMESS-x6iqI
+      Host: my.frnhk.xyz
+- name: VMESS-NMp3K
+  type: vmess
+  server: 66.235.200.145
+  port: 8443
+  uuid: 6006c9a2-c0a2-4cda-80f2-405b0d790fc8
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /Sydney3
+    headers:
+      Host: aus.frnhk.xyz
+- name: VMESS-EBxHA
   type: vmess
   server: v6.hdacd.com
   port: 30806
@@ -187,35 +187,99 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-UtuvS
+- name: VMESS-iwdJF
   type: vmess
-  server: 172.67.161.144
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: none
+  tls: true
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-5IpKK
+  type: vmess
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
-  cipher: auto
+  cipher: none
   tls: true
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /ws-vmess
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+- name: VMESS-dFZAi
+  type: vmess
+  server: 120.48.133.162
+  port: 10086
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-7kj52
+  type: vmess
+  server: 47.243.194.125
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: nycqg19zkwacpm1b.v.3dns.vip
+- name: Trojan-1NN22
+  type: trojan
+  server: 45.32.52.173
+  port: 8886
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  params: 'allowInsecure: 1, sni: 45.32.52.173'
+- name: Trojan-QJgxY
+  type: trojan
+  server: 139.180.146.200
+  port: 8886
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  params: 'allowInsecure: 1, sni: 139.180.146.200'
+- name: Trojan-60s00
+  type: trojan
+  server: 108.162.194.134
+  port: 443
+  password: humanity
+  params: 'path: /assignment, security: tls, insecure: 0, host: www.pleadcourt.org,
+    type: ws, allowInsecure: 0, sni: www.pleadcourt.org'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-rvyCq
-  - SS-BdLVG
-  - VMESS-8D7sn
-  - VMESS-Raqb0
-  - VMESS-MjjPD
-  - VMESS-EZlER
-  - VMESS-BDUAV
-  - VMESS-9HJYx
-  - VMESS-POCmz
-  - VMESS-VdS2V
-  - VMESS-x6iqI
-  - VMESS-UtuvS
+  - SS-XXczj
+  - SS-9nuOE
+  - VMESS-k80hv
+  - VMESS-gWmA6
+  - VMESS-6QqNU
+  - VMESS-uZJSs
+  - VMESS-Sf9sK
+  - VMESS-5paJN
+  - VMESS-fDsb8
+  - VMESS-NMp3K
+  - VMESS-EBxHA
+  - VMESS-iwdJF
+  - VMESS-5IpKK
+  - VMESS-dFZAi
+  - VMESS-7kj52
+  - Trojan-1NN22
+  - Trojan-QJgxY
+  - Trojan-60s00
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
