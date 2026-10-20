@@ -58,65 +58,7 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-vRZYd
-  type: ss
-  server: 192.0.2.1
-  port: 1
-  cipher: aes-128-gcm
-  password: 6601fb90e9b3
-- name: VMESS-gs46u
-  type: vmess
-  server: 2001:bc8:32d7:1a9::5
-  port: 18901
-  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
-    headers:
-      Host: N/A
-- name: VMESS-wq6d7
-  type: vmess
-  server: 120.48.133.162
-  port: 10086
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-8m093
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: none
-  tls: true
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-AtQkU
-  type: vmess
-  server: seoul01.zgjok.com
-  port: 443
-  uuid: 182f1650-ca13-480c-b0b4-1ca44ed0504e
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /henis01
-    headers:
-      Host: seoul01.zgjok.com
-- name: VMESS-R08mM
+- name: VMESS-CFgKX
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -129,16 +71,67 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
+- name: VMESS-Zc2Oq
+  type: vmess
+  server: 2001:bc8:32d7:1a9::5
+  port: 18901
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+    headers:
+      Host: N/A
+- name: VMESS-7UVFq
+  type: vmess
+  server: 120.48.133.162
+  port: 10086
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-QBeka
+  type: vmess
+  server: seoul01.zgjok.com
+  port: 443
+  uuid: 182f1650-ca13-480c-b0b4-1ca44ed0504e
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /henis01
+    headers:
+      Host: seoul01.zgjok.com
+- name: VMESS-nBVQT
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: none
+  tls: true
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-vRZYd
-  - VMESS-gs46u
-  - VMESS-wq6d7
-  - VMESS-8m093
-  - VMESS-AtQkU
-  - VMESS-R08mM
+  - VMESS-CFgKX
+  - VMESS-Zc2Oq
+  - VMESS-7UVFq
+  - VMESS-QBeka
+  - VMESS-nBVQT
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
