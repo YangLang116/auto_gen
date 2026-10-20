@@ -58,26 +58,13 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-CLTaM
+- name: SS-vRZYd
   type: ss
   server: 192.0.2.1
   port: 1
   cipher: aes-128-gcm
   password: 6601fb90e9b3
-- name: VMESS-ppVw0
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-- name: VMESS-TVhsU
+- name: VMESS-gs46u
   type: vmess
   server: 2001:bc8:32d7:1a9::5
   port: 18901
@@ -90,33 +77,7 @@ proxies:
     path: /github.com/Alvin9999-newpac/fanqiang
     headers:
       Host: N/A
-- name: VMESS-o18Gj
-  type: vmess
-  server: seoul01.zgjok.com
-  port: 443
-  uuid: 182f1650-ca13-480c-b0b4-1ca44ed0504e
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /henis01
-    headers:
-      Host: seoul01.zgjok.com
-- name: VMESS-0SOq2
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: none
-  tls: true
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-016Do
+- name: VMESS-wq6d7
   type: vmess
   server: 120.48.133.162
   port: 10086
@@ -129,33 +90,55 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: Trojan-JI1OK
-  type: trojan
-  server: 188.114.98.0
+- name: VMESS-8m093
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: none
+  tls: true
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-AtQkU
+  type: vmess
+  server: seoul01.zgjok.com
   port: 443
-  password: humanity
-  params: 'path: //assignment, security: tls, alpn: http/1.1, insecure: 0, host: www.calmlunch.com,
-    fp: chrome, ech: cloudflare-ech.com+udp://1.1.1.1, type: ws, allowInsecure: 0,
-    sni: www.calmlunch.com'
-- name: Trojan-B1BQR
-  type: trojan
-  server: 104.18.9.83
+  uuid: 182f1650-ca13-480c-b0b4-1ca44ed0504e
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /henis01
+    headers:
+      Host: seoul01.zgjok.com
+- name: VMESS-R08mM
+  type: vmess
+  server: guanwang.awsno.com
   port: 443
-  password: humanity
-  params: 'path: /assignment, security: tls, insecure: 0, host: www.calmlunch.com,
-    type: ws, allowInsecure: 0, sni: www.calmlunch.com'
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-CLTaM
-  - VMESS-ppVw0
-  - VMESS-TVhsU
-  - VMESS-o18Gj
-  - VMESS-0SOq2
-  - VMESS-016Do
-  - Trojan-JI1OK
-  - Trojan-B1BQR
+  - SS-vRZYd
+  - VMESS-gs46u
+  - VMESS-wq6d7
+  - VMESS-8m093
+  - VMESS-AtQkU
+  - VMESS-R08mM
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
