@@ -58,82 +58,61 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-DRkr3
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: SS-9Nu6O
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-- name: SS-7kCAh
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: SS-5YXzQ
+- name: SS-UCWkh
   type: ss
   server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: SS-2Z6Vh
+- name: SS-qw8yO
   type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: SS-zFnSG
+- name: SS-yeyNC
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SS-RVMAf
   type: ss
   server: 154.36.158.197
   port: 8388
   cipher: aes-256-gcm
   password: BeaUf9c0AEWH40Pu
-- name: VMESS-J4not
-  type: vmess
-  server: v24.hdacd.com
-  port: 30824
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: true
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-u7htR
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: true
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-DGHAw
-  type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: none
-  tls: true
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-YeayX
+- name: SS-aogZm
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SS-CMQ0X
+  type: ss
+  server: 192.0.2.1
+  port: 1
+  cipher: aes-128-gcm
+  password: 6601fb90e9b3
+- name: SS-sEtbp
+  type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
+- name: SS-VKVoK
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SS-ixQlz
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: VMESS-AUpaS
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -146,7 +125,20 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: VMESS-n9VQj
+- name: VMESS-LQrmz
+  type: vmess
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: true
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-8MyLI
   type: vmess
   server: 112.132.215.108
   port: 50002
@@ -159,33 +151,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-xKjSN
-  type: vmess
-  server: 2001:bc8:32d7:1a9::5
-  port: 18901
-  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
-    headers:
-      Host: N/A
-- name: VMESS-OAzRq
-  type: vmess
-  server: 8.218.195.61
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
-- name: VMESS-MhiRF
+- name: VMESS-H1KwG
   type: vmess
   server: v35.hdacd.com
   port: 30835
@@ -198,7 +164,46 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-FkHTa
+- name: VMESS-pMg9a
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: true
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-ZbwKo
+  type: vmess
+  server: 2001:bc8:32d7:1a9::5
+  port: 18901
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+    headers:
+      Host: N/A
+- name: VMESS-ZXzu3
+  type: vmess
+  server: 8.218.195.61
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+- name: VMESS-kZJj5
   type: vmess
   server: or3.sfacg.uk
   port: 2083
@@ -211,28 +216,27 @@ proxies:
     path: /or3
     headers:
       Host: or3.sfacg.uk
-- name: Trojan-BNo44
+- name: VMESS-IbtwX
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: true
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: Trojan-w7a5E
   type: trojan
-  server: 45.80.111.7
-  port: 443
+  server: 82.117.245.125
+  port: 2053
   password: humanity
-  params: 'path: /assignment, security: tls, insecure: 0, fp: chrome, type: ws, allowInsecure:
-    0, sni: www.calmlunch.com'
-- name: Trojan-mbbrQ
-  type: trojan
-  server: 46.101.110.34
-  port: 443
-  password: humanity
-  params: 'security: tls, sni: www.volumeroot.com, type: ws, path: /assignment, Host:
-    www.volumeroot.com'
-- name: Trojan-xRfiq
-  type: trojan
-  server: 108.162.194.134
-  port: 443
-  password: humanity
-  params: 'path: /assignment, security: tls, insecure: 0, host: www.pleadcourt.org,
-    type: ws, allowInsecure: 0, sni: www.pleadcourt.org'
-- name: Trojan-LZPmv
+  params: 'fp: chrome, path: /assignment, security: tls, sni: www.calmlunch.com, type:
+    ws'
+- name: Trojan-sxAgG
   type: trojan
   server: 157.230.29.88
   port: 443
@@ -242,25 +246,26 @@ proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-DRkr3
-  - SS-9Nu6O
-  - SS-7kCAh
-  - SS-5YXzQ
-  - SS-2Z6Vh
-  - SS-zFnSG
-  - VMESS-J4not
-  - VMESS-u7htR
-  - VMESS-DGHAw
-  - VMESS-YeayX
-  - VMESS-n9VQj
-  - VMESS-xKjSN
-  - VMESS-OAzRq
-  - VMESS-MhiRF
-  - VMESS-FkHTa
-  - Trojan-BNo44
-  - Trojan-mbbrQ
-  - Trojan-xRfiq
-  - Trojan-LZPmv
+  - SS-UCWkh
+  - SS-qw8yO
+  - SS-yeyNC
+  - SS-RVMAf
+  - SS-aogZm
+  - SS-CMQ0X
+  - SS-sEtbp
+  - SS-VKVoK
+  - SS-ixQlz
+  - VMESS-AUpaS
+  - VMESS-LQrmz
+  - VMESS-8MyLI
+  - VMESS-H1KwG
+  - VMESS-pMg9a
+  - VMESS-ZbwKo
+  - VMESS-ZXzu3
+  - VMESS-kZJj5
+  - VMESS-IbtwX
+  - Trojan-w7a5E
+  - Trojan-sxAgG
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
