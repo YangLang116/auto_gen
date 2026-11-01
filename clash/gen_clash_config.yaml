@@ -58,44 +58,49 @@ dns:
     - 224.0.0.0/4
     - 240.0.0.0/4
 proxies:
-- name: SS-GtRKY
+- name: SS-al0IR
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SS-Whx2a
   type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: SS-Yw47D
+- name: SS-PNlWR
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SS-MCJxr
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: SS-5306Z
   type: ss
   server: 202.50.253.63
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: SS-bfpHN
+- name: SS-TJn8Z
   type: ss
-  server: 202.50.253.45
+  server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: SS-JOoKF
+- name: SS-5ARqs
   type: ss
   server: 154.36.158.197
   port: 8388
   cipher: aes-256-gcm
   password: BeaUf9c0AEWH40Pu
-- name: VMESS-GHYkN
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: none
-  tls: true
-  network: tcp
-  tcp-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-fy2VB
+- name: VMESS-BWSvr
   type: vmess
   server: guanwang.awsno.com
   port: 443
@@ -108,33 +113,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: VMESS-S9W3E
-  type: vmess
-  server: 2001:bc8:32d7:1a9::5
-  port: 18901
-  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
-    headers:
-      Host: N/A
-- name: VMESS-y3tDH
-  type: vmess
-  server: 120.48.133.162
-  port: 10086
-  uuid: a01e5d56-464f-45b9-b600-164db4700162
-  alterId: 0
-  cipher: none
-  tls: true
-  network: ws
-  ws-opts:
-    path: N/A
-    headers:
-      Host: N/A
-- name: VMESS-LWhPE
+- name: VMESS-lOcAE
   type: vmess
   server: v29.hdacd.com
   port: 30829
@@ -147,11 +126,11 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-mLxCL
+- name: VMESS-u0vXx
   type: vmess
-  server: euu1yalfmcqvljex.v.3dns.vip
+  server: 47.76.57.83
   port: 443
-  uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
   cipher: none
   tls: true
@@ -159,8 +138,34 @@ proxies:
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: euu1yalfmcqvljex.v.3dns.vip
-- name: VMESS-XNIhP
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+- name: VMESS-k4uNl
+  type: vmess
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  alterId: 0
+  cipher: none
+  tls: false
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: ''
+- name: VMESS-kDNyx
+  type: vmess
+  server: 188.114.96.3
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: VMESS-gUrgw
   type: vmess
   server: v24.hdacd.com
   port: 30824
@@ -173,33 +178,33 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-os9K2
+- name: VMESS-QwImB
   type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  server: 2001:bc8:32d7:1a9::5
+  port: 18901
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   alterId: 0
-  cipher: none
+  cipher: auto
   tls: false
   network: ws
   ws-opts:
-    path: /arki
+    path: /github.com/Alvin9999-newpac/fanqiang
     headers:
-      Host: 47.244.120.197
-- name: VMESS-Y7wl7
+      Host: N/A
+- name: VMESS-us80b
   type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: none
   tls: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
+  network: tcp
+  tcp-opts:
+    path: N/A
     headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-- name: VMESS-Laajw
+      Host: N/A
+- name: VMESS-PTb3v
   type: vmess
   server: 45.144.48.32
   port: 56080
@@ -212,20 +217,20 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-x18ZN
+- name: VMESS-WbyU7
   type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
+  server: i2psm3knof5qjjix.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
   cipher: none
   tls: true
-  network: tcp
-  tcp-opts:
-    path: N/A
+  network: ws
+  ws-opts:
+    path: /ws-vmess
     headers:
-      Host: N/A
-- name: VMESS-3puTY
+      Host: i2psm3knof5qjjix.v.3dns.vip
+- name: VMESS-G8zv1
   type: vmess
   server: v4.hdacd.com
   port: 30804
@@ -238,7 +243,7 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: VMESS-1AbYy
+- name: VMESS-24kOy
   type: vmess
   server: v35.hdacd.com
   port: 30835
@@ -251,323 +256,173 @@ proxies:
     path: N/A
     headers:
       Host: N/A
-- name: Trojan-i9L6h
+- name: VMESS-js7TD
+  type: vmess
+  server: 8.217.254.88
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 2b9hwy8ocx7q74nm.v.3dns.vip
+- name: VMESS-knyQA
+  type: vmess
+  server: 120.48.133.162
+  port: 10086
+  uuid: a01e5d56-464f-45b9-b600-164db4700162
+  alterId: 0
+  cipher: none
+  tls: true
+  network: ws
+  ws-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: VMESS-86syp
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: none
+  tls: true
+  network: tcp
+  tcp-opts:
+    path: N/A
+    headers:
+      Host: N/A
+- name: Trojan-kyBRV
   type: trojan
-  server: 172.237.0.160
+  server: 190.93.245.148
   port: 443
   password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-Zrec8
+  params: 'allowInsecure: 1, sni: www.pleadcourt.org, ws: 1, wspath: /assignment'
+- name: Trojan-vc00B
   type: trojan
-  server: 162.159.58.65
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-0IiqH
-  type: trojan
-  server: 93.85.236.9
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-mnk9L
-  type: trojan
-  server: 104.16.144.215
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-e0faF
-  type: trojan
-  server: 172.64.151.20
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-hh4tx
-  type: trojan
-  server: 38.180.225.247
+  server: 201.24.57.254
   port: 2053
   password: humanity
   params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-zCeG2
+- name: Trojan-6ykmf
   type: trojan
-  server: 104.18.46.59
+  server: 108.165.236.229
   port: 443
   password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-oUU4l
-  type: trojan
-  server: 172.67.89.103
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-v9RWJ
-  type: trojan
-  server: 185.146.234.242
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-xmdlu
-  type: trojan
-  server: 104.17.145.43
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-yYVNg
-  type: trojan
-  server: 207.57.123.112
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-YibeL
-  type: trojan
-  server: 104.17.17.238
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-61dyO
-  type: trojan
-  server: 109.248.170.245
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-n3MUR
-  type: trojan
-  server: 77.221.139.114
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-GU781
-  type: trojan
-  server: 83.228.199.3
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-aHprv
-  type: trojan
-  server: 31.76.0.15
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-7qHOm
-  type: trojan
-  server: 87.76.190.244
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-K2EqL
-  type: trojan
-  server: 104.18.39.55
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-lFbQp
-  type: trojan
-  server: 213.238.182.13
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-YxeIg
-  type: trojan
-  server: 172.104.185.40
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-T3qox
-  type: trojan
-  server: 95.182.95.144
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-tENjd
-  type: trojan
-  server: 38.180.100.80
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-SWzol
-  type: trojan
-  server: 103.218.173.218
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-Iy3d5
-  type: trojan
-  server: 185.234.114.165
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-OxEmH
-  type: trojan
-  server: 104.17.28.254
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-4EENE
-  type: trojan
-  server: 88.218.92.205
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-42fxD
-  type: trojan
-  server: 3.112.41.210
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-jO6Tu
-  type: trojan
-  server: 199.119.137.32
-  port: 8443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-NiZC5
-  type: trojan
-  server: 202.61.198.53
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-k7T8w
-  type: trojan
-  server: 143.198.106.68
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-yxan7
-  type: trojan
-  server: 162.159.128.253
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-fRZu4
-  type: trojan
-  server: 104.26.3.162
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-pI2tP
-  type: trojan
-  server: 168.143.108.38
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-1YMgP
-  type: trojan
-  server: 104.19.229.21
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.calmlunch.com, ws: 1, wspath: /assignment'
-- name: Trojan-4dYis
-  type: trojan
-  server: 103.219.195.65
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-WuzCQ
-  type: trojan
-  server: 172.67.203.46
-  port: 443
-  password: humanity
-  params: 'host: www.cordweave.com, path: /assignment, security: tls, sni: www.cordweave.com,
+  params: 'allowInsecure: 1, fp: chrome, path: /assignment, security: tls, sni: www.cordweave.com,
     type: ws'
-- name: Trojan-OXrYB
-  type: trojan
-  server: 172.67.203.46
-  port: 443
-  password: humanity
-  params: 'security: tls, sni: www.cordweave.com, type: ws, path: /assignment, Host:
-    www.cordweave.com'
-- name: Trojan-RRnhN
-  type: trojan
-  server: 104.16.251.219
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-BMwAv
-  type: trojan
-  server: 104.16.65.1
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-u6gO0
-  type: trojan
-  server: 104.17.159.71
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-ER2S5
-  type: trojan
-  server: 91.250.248.151
-  port: 443
-  password: humanity
-  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
-- name: Trojan-70i43
+- name: Trojan-NDzED
   type: trojan
   server: 130.78.185.4
   port: 443
   password: humanity
   params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
+- name: Trojan-1mTr6
+  type: trojan
+  server: 179.255.132.76
+  port: 443
+  password: humanity
+  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
+- name: Trojan-w5HDp
+  type: trojan
+  server: ph001.zestapp778.com
+  port: 46298
+  password: 5t6i121em5lkmsmk
+  params: 'allowInsecure: 1, sni: ph001.zestapp778.com'
+- name: Trojan-XcOM3
+  type: trojan
+  server: 104.17.167.134
+  port: 443
+  password: humanity
+  params: 'allowInsecure: 1, fp: chrome, path: /assignment, security: tls, sni: www.cordweave.com,
+    type: ws'
+- name: Trojan-17KBq
+  type: trojan
+  server: 130.94.52.157
+  port: 46298
+  password: 5t6i121em5lkmsmk
+  params: 'allowInsecure: 1, sni: ph001.zestapp778.com'
+- name: Trojan-uL1lm
+  type: trojan
+  server: 104.18.255.167
+  port: 443
+  password: humanity
+  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
+- name: Trojan-tmuhY
+  type: trojan
+  server: 104.17.167.134
+  port: 443
+  password: humanity
+  params: 'allowInsecure: 0, path: /assignment, security: tls, sni: www.cordweave.com,
+    type: ws'
+- name: Trojan-SC0Ml
+  type: trojan
+  server: 104.18.72.213
+  port: 443
+  password: humanity
+  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
+- name: Trojan-ExRYd
+  type: trojan
+  server: 104.17.167.134
+  port: 443
+  password: humanity
+  params: 'security: tls, sni: www.cordweave.com, type: ws, path: /assignment'
+- name: Trojan-F2hAy
+  type: trojan
+  server: 172.66.0.118
+  port: 443
+  password: humanity
+  params: 'allowInsecure: 1, sni: www.cordweave.com, ws: 1, wspath: /assignment'
+- name: Trojan-HRJ96
+  type: trojan
+  server: 108.162.194.134
+  port: 443
+  password: humanity
+  params: 'fp: chrome, path: /assignment, security: tls, sni: www.pleadcourt.org,
+    type: ws'
 proxy-groups:
 - name: ♻️ 自动选择
   type: url-test
   proxies:
-  - SS-GtRKY
-  - SS-Yw47D
-  - SS-bfpHN
-  - SS-JOoKF
-  - VMESS-GHYkN
-  - VMESS-fy2VB
-  - VMESS-S9W3E
-  - VMESS-y3tDH
-  - VMESS-LWhPE
-  - VMESS-mLxCL
-  - VMESS-XNIhP
-  - VMESS-os9K2
-  - VMESS-Y7wl7
-  - VMESS-Laajw
-  - VMESS-x18ZN
-  - VMESS-3puTY
-  - VMESS-1AbYy
-  - Trojan-i9L6h
-  - Trojan-Zrec8
-  - Trojan-0IiqH
-  - Trojan-mnk9L
-  - Trojan-e0faF
-  - Trojan-hh4tx
-  - Trojan-zCeG2
-  - Trojan-oUU4l
-  - Trojan-v9RWJ
-  - Trojan-xmdlu
-  - Trojan-yYVNg
-  - Trojan-YibeL
-  - Trojan-61dyO
-  - Trojan-n3MUR
-  - Trojan-GU781
-  - Trojan-aHprv
-  - Trojan-7qHOm
-  - Trojan-K2EqL
-  - Trojan-lFbQp
-  - Trojan-YxeIg
-  - Trojan-T3qox
-  - Trojan-tENjd
-  - Trojan-SWzol
-  - Trojan-Iy3d5
-  - Trojan-OxEmH
-  - Trojan-4EENE
-  - Trojan-42fxD
-  - Trojan-jO6Tu
-  - Trojan-NiZC5
-  - Trojan-k7T8w
-  - Trojan-yxan7
-  - Trojan-fRZu4
-  - Trojan-pI2tP
-  - Trojan-1YMgP
-  - Trojan-4dYis
-  - Trojan-WuzCQ
-  - Trojan-OXrYB
-  - Trojan-RRnhN
-  - Trojan-BMwAv
-  - Trojan-u6gO0
-  - Trojan-ER2S5
-  - Trojan-70i43
+  - SS-al0IR
+  - SS-Whx2a
+  - SS-PNlWR
+  - SS-MCJxr
+  - SS-5306Z
+  - SS-TJn8Z
+  - SS-5ARqs
+  - VMESS-BWSvr
+  - VMESS-lOcAE
+  - VMESS-u0vXx
+  - VMESS-k4uNl
+  - VMESS-kDNyx
+  - VMESS-gUrgw
+  - VMESS-QwImB
+  - VMESS-us80b
+  - VMESS-PTb3v
+  - VMESS-WbyU7
+  - VMESS-G8zv1
+  - VMESS-24kOy
+  - VMESS-js7TD
+  - VMESS-knyQA
+  - VMESS-86syp
+  - Trojan-kyBRV
+  - Trojan-vc00B
+  - Trojan-6ykmf
+  - Trojan-NDzED
+  - Trojan-1mTr6
+  - Trojan-w5HDp
+  - Trojan-XcOM3
+  - Trojan-17KBq
+  - Trojan-uL1lm
+  - Trojan-tmuhY
+  - Trojan-SC0Ml
+  - Trojan-ExRYd
+  - Trojan-F2hAy
+  - Trojan-HRJ96
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 国外媒体
