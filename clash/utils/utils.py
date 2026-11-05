@@ -3,6 +3,7 @@ import random
 import string
 import yaml
 import os
+from urllib.parse import quote
 
 
 def fetch_url(url):
@@ -30,8 +31,15 @@ def generate_clash_config(nodes):
     return yaml.dump(yaml_config, allow_unicode=True, sort_keys=False)
 
 
+# 钉钉 markdown 只渲染可访问的图片地址，data URI / base64 会原样显示成文本。
+SUBSCRIBE_URL = (
+    "https://raw.githubusercontent.com/YangLang116/auto_gen/master/clash/gen_clash_config.yaml"
+)
+
+
 def send_markdown_toDing(nodes):
-    base_url = "https://proxy.v2gh.com/https://raw.githubusercontent.com/YangLang116/auto_gen/master/clash"
+    # 二维码由国内服务按订阅地址现生成，避免钉钉拉取 GitHub 外链失败。
+    qr_url = "https://api.pwmqr.com/qrcode/create/?url=" + quote(SUBSCRIBE_URL, safe="")
     response = requests.request(
         "POST",
         "https://oapi.dingtalk.com/robot/send",
@@ -39,7 +47,11 @@ def send_markdown_toDing(nodes):
             "msgtype": "markdown",
             "markdown": {
                 "title": "VPN",
-                "text": f"- 更新节点数: {len(nodes)}\n- 订阅地址: {base_url}/gen_clash_config.yaml\n![QR]({base_url}/qr/v2gh.png)",
+                "text": (
+                    f"- 更新节点数: {len(nodes)}\n"
+                    f"- 订阅地址: {SUBSCRIBE_URL}\n"
+                    f"![QR]({qr_url})"
+                ),
             },
         },
         params={"access_token": os.environ["CLASH_DING_TOKEN"]},
